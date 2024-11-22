@@ -1,0 +1,89 @@
+body {
+    font-family: Klee One;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.menu {
+    z-index: 1;
+    background-color: #4476a7;
+    min-height: 100vh;
+    position: fixed;
+    width: 15rem;
+}
+.menu button {
+    text-decoration: none;
+    color: white;
+    background-color: #4a88c4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    width: 10rem;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 1.3rem;
+    border-radius: 5px;
+    font-family: Klee One;
+    font-size: 1rem;
+}
+.menu button:hover {
+    background-color: #1abc9d;
+}
+.tab {
+    display: none;
+    margin-left: 15rem;
+    padding: 1rem;
+}
+.tab.active {
+    display: block;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+img {
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 30px;
+}
+thead {
+    background-color: #1bbc9b;
+    color: white;
+}
+.contenido3 {
+    background-color: white;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+label {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #3298da;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+}
