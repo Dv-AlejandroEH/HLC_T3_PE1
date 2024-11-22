@@ -87,3 +87,9 @@ form button {
     border: none;
     padding: 10px 15px 10px 15px;
 }
+.texto-titulo {
+    display: inline;
+}
+.sombra {
+    background-color: #d4f8f6;
+}
